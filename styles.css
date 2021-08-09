@@ -78,10 +78,6 @@ table {
 
 /* Mine CSS */
 
-html {
-    height: 100%;
-}
-
 body {
     height: 100%;
 }
@@ -218,7 +214,7 @@ img {
 .search-bar {
     display: flex;
     justify-content: stretch;
-    width: 45%;
+    width: 30%;
     border: 1px solid lightgray;
     border-radius: 20px;
     padding: 10px 10px 5px 10px;
