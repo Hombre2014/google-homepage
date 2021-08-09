@@ -1,0 +1,261 @@
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Google icons CSS */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* Mine CSS */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+div#container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+ }
+
+a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+
+a:hover {
+    border-bottom: 1px solid #686666;
+}
+
+header {
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#nav-top-left {
+    float: left;
+}
+
+#nav-top-right {
+    float: right;
+}
+
+.menu-left, .menu-right {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu-left-b, .menu-right-b {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#top-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon {
+    margin-top: 10px;
+}
+
+#icon:hover {
+    border-bottom: none;
+}
+
+#button {
+    margin-left: 20px;
+    border: 1px solid #4285f4;
+    background-color: #4683ea;
+    border-radius: 2px;
+    color: white;
+    padding: 4px 10px;
+    margin-top: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn2 {
+    margin-left: 10px;
+}
+
+#btn-link {
+    border-bottom: none;
+}
+
+li {
+    margin-right: 20px;
+    font-size: 0.8em;
+}
+
+#main-div {
+    display: flex;
+    margin: 240px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+.image {
+    display: flex;
+}
+
+#logo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: stretch;
+    width: 45%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 20px;
+}
+
+.input-bar {
+    display: flex;
+    flex: 1;
+}
+
+#search {
+    border: none;
+    height: 28px;
+    width: 100%;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+#nav-bottom-left {
+    float: left;
+}
+
+#nav-bottom-right {
+    float: right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0 20px 0px;
+    background-color: #f2f2f2;
+}
+
+.menu-left-b>li>a {
+    margin-left: 20px;
+}
